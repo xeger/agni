@@ -1,0 +1,3 @@
+magic:
+  gauge-magic_smoke_level: rate(go_memstats_alloc_bytes[20s])
+  counter-magic_bunnies: go_memstats_frees_total
