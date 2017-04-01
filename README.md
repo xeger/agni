@@ -4,6 +4,12 @@ management agent. It can be invoked as a collectd plugin to emit monitoring
 series for long-term storage, alerting and other functions in RightScale's
 [dashboard](https://login.rightscale.com).
 
+To-do list:
+
+1) Watch configuration files & reload when they change
+
+2) Stacked series e.g. CPU graph
+
 ## Configuration
 
 There are two configuration files, both located in `/etc/agni`. Querier
